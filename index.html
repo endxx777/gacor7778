@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instagram - Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      padding: 40px;
+      border: 1px solid #dbdbdb;
+      width: 300px;
+      text-align: center;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #3897f0;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      font-weight: bold;
+    }
+    .alert {
+      margin-top: 10px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Instagram</h2>
+    <form onsubmit="alert('INI HANYA SIMULASI. JANGAN PERNAH MASUKKAN DATA ASLI!'); return false;">
+      <input type="text" placeholder="Phone number, username, or email"><br>
+      <input type="password" placeholder="Password"><br>
+      <button type="submit">Log In</button>
+    </form>
+  </div>
+</body>
+</html>
